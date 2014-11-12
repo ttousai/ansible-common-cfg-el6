@@ -1,0 +1,8 @@
+---
+
+- name: turn off GSSAPI
+  replace:
+    dest: /etc/ssh/sshd_config
+    regexp: 'GSSAPIAuthentication yes'
+    replace: 'GSSAPIAuthentication no'
+  notify: restart sshd

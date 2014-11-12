@@ -1,0 +1,4 @@
+---
+
+- name: turn off SELinux
+  shell: /bin/echo 0 > /selinux/enforce

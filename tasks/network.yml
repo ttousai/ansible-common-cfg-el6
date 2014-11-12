@@ -1,0 +1,4 @@
+---
+
+- name: configure /etc/sysconfig/network
+  template: src=network.j2 dest=/etc/sysconfig/network backup=yes

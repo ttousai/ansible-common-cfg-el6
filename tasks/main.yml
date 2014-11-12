@@ -1,0 +1,6 @@
+---
+
+- include: selinux.yml
+- include: sudo.yml
+- include: sshd.yml
+- include: network.yml

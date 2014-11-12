@@ -1,0 +1,8 @@
+---
+# remove EL6 default sudo requiretty
+
+- name: disable requiretty
+  replace:
+    dest: /etc/sudoers
+    regexp: "Defaults.*requiretty"
+    replace: "Defaults    !requiretty"
