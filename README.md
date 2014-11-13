@@ -36,6 +36,6 @@ BSD
 Author Information
 ------------------
 
-Abubakr-Sadik Nii Nai Davis
-http://github.com/ttousai
-@ttousai
+Abubakr-Sadik Nii Nai Davis  
+http://github.com/ttousai  
+@ttousai  
