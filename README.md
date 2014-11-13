@@ -1,5 +1,5 @@
-Role Name
-=========
+Ansible-common-cfg-el6
+======================
 
 Carry out common configurations for all my CentOS 6 based server installs.
 
